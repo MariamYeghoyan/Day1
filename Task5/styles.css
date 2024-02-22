@@ -1,0 +1,24 @@
+.colorButton {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.colorButton[data-color="red"] {
+    background-color: red;
+}
+
+.colorButton[data-color="blue"] {
+    background-color: blue;
+}
+
+.colorButton[data-color="green"] {
+    background-color: green;
+}
+
+.colorButton[data-color="yellow"] {
+    background-color: yellow;
+}
